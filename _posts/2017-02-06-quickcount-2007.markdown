@@ -1,0 +1,48 @@
+---
+author: muyiwagbadegesin
+comments: true
+date: 2017-02-06 08:11:00+00:00
+excerpt: <p>For the 2007 elections, I partnered with a group of Filipino developers,&nbsp;to
+  build an sms-based election monitoring system (which we called QuickCount 2007).
+  This automated system was able to receive and process sms reports including ballot
+  count results from 18,000 <a href="https://en.wikipedia.org/wiki/Action_Congress_of_Nigeria">Action
+  Congress</a>&nbsp;polling agents at 9,000 polling units all over the state.</p>
+layout: post
+link: https://mgblog477.wordpress.com/2017/02/06/2016417quickcount-2007/
+slug: 2016417quickcount-2007
+title: 'Quickcount 2007: Mobile SMS Messaging to Prevent Election Rigging in Nigeria'
+wordpress_id: 25
+categories:
+- Politics
+- Projects
+- Technology
+tags:
+- election monitoring
+- elections
+- quickcount
+---
+
+During the 2007 elections in Nigeria, I partnered with a group of Filipino developers to build an SMS-based election monitoring system (which we called QuickCount 2007). This automated system was able to receive and process structured SMS reports including ballot count results from 18,000 [Action Congress](https://en.wikipedia.org/wiki/Action_Congress_of_Nigeria) polling agents at the approximately 9,000 polling units all over Lagos State.  We also received reports from party polling agents in Ekiti and Osun States.
+
+This project was a direct response to rumored plans by the ruling People's Democratic Party (PDP) to rig the elections and announce results at variance with the actual ballot count at individual polling units.
+
+# System Design
+
+The system was based on a network of [Linux](https://www.linux.com) servers running customized SMS gateway software connected to an array of GSM Modems.  The front end client application was written in [PHP](http://php.net) and pushed results to a closed website viewable by the project team, the candidates and the campaign team on TV monitor set up specifically for display of the results.
+
+
+  
+       [caption id="" align="alignnone" width="1013.0"]![Screenshot of the Results Display from the QuickCount2007 Server](https://mgblog477.files.wordpress.com/2017/02/6b9e8-quickcount2007_screenshotquickcount2007_screenshot.png) Screenshot of the Results Display from the QuickCount2007 Server[/caption] 
+  
+
+
+
+# Features
+
+The basic features of the system were:
+
+  * Ability to register and send SMS to verified users
+  * Ability for users to register themselves with their GSM number and location (state.lga.ward.PU).
+  * Ability to receive polling unit (PU) incident and status reports from senders e.g. incidence of violence could be reported by simply sending "VIOL".  The system automatically recognized the location based on the sender's pre-registered GSM number.
+  * Ability to receive the ballot count per Polling Unit in predetermined structured format.
+  * Ability to automatically tabulate/collate the results into a database and display according to party and candidate in graphical format.

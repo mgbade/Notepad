@@ -4,30 +4,30 @@ logo:             logo3.png
 disqus_shortname: muyiwag
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 #url:        	  http://mgbade.github.io
 
 # Owner/author information
 owner:
   name:           Muyiwa Gbadegesin
-  avatar:         hmfaysal.jpg
+  avatar:         muyiwag.jpg
   email:          hello@muyiwagbadegesin.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Rising Ape or Fallen Angel?
   # Social networking links used in footer. Update and remove as you like.
   twitter:        muyiwag
   facebook:       muyiwagbadegesin
-  github:         mgbade      
+  github:         mgbade
   instagram:      muyiwag
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -41,7 +41,7 @@ links:
   - title: Categories
     url: /categories
   - title: About
-    url: /hossain-mohd-faysal
+    url: /muyiwagbadegesin
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Africa/Lagos
